@@ -1,4 +1,15 @@
-// this file creates the core.css import here all the common styles for your theme. 
+// Dark Wood & Brass Library Theme - Core styles
+// This file creates the core.css import - includes all common styles for the theme
 
-// @use "./build/core/variables";
-// @use "./build/core/custom-media-breakpoints";
+// Import variables first (SCSS variables for paragon compilation)
+@import "./variables";
+
+// Import fonts
+@import "./fonts/index";
+
+// Import build variables and breakpoints
+@import "./build/core/variables";
+@import "./build/core/custom-media-breakpoints";
+
+// Import overrides (CSS custom properties and component styling)
+@import "./overrides";
