@@ -1,6 +1,28 @@
-// Use this file to set SASS variables for @edx/paragon
+// Dark Wood & Brass Library Theme SASS Variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
-// Minimal fallback for Open edX MFE build
-$brand-primary: #07e0c4;
-$brand-secondary: #e4b44d;
-$brand-accent: #8b0000;
+
+// Theme color palette
+$wood-bg: #20160e;
+$paper: #f4ecd8;
+$brass: #bfa75a;
+$wood-dark: #36281b;
+$ink: #32261a;
+$accent: #7f5c27;
+
+// Paragon brand variables using dark wood and brass theme
+$brand-primary: $brass;
+$brand-secondary: $accent;
+$brand-accent: $wood-dark;
+
+// Override key Paragon variables with our theme colors
+$primary: $brass;
+$secondary: $accent;
+$body-bg: $wood-bg;
+$body-color: $paper;
+$text-color: $paper;
+$border-color: $accent;
+
+// Typography variables
+$headings-color: $paper;
+$link-color: $brass;
+$link-hover-color: $accent;
